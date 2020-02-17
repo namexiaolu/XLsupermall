@@ -1,0 +1,18 @@
+@import "./normalize.css";
+/* :root获取根元素 */
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+:root {
+    /* 以下是定义变量的方法 */
+    --color-text: #666;
+    --color-high-text: #ff5777;
+}
+
+/* 使用方法 */
+p {
+    color: var(--color-text);
+}
